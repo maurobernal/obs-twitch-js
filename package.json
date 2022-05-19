@@ -1,0 +1,31 @@
+{
+  "name": "obs-twitch-js",
+  "version": "1.0.0",
+  "description": "App para obs studio y twitch",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maurobernal/obs-twitch-js.git"
+  },
+  "keywords": [
+    "twitch",
+    "node",
+    "obs",
+    "tmi",
+    "websocket",
+    "stream"
+  ],
+  "author": "Mauro Bernal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maurobernal/obs-twitch-js/issues"
+  },
+  "homepage": "https://github.com/maurobernal/obs-twitch-js#readme",
+  "dependencies": {
+    "obs-websocket-js": "^4.0.3",
+    "tmi.js": "^1.8.5"
+  }
+}
